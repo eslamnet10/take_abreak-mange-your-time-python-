@@ -1,2 +1,6 @@
-install python 2
-sudo apt install python 
+#!/bin/bash -eo pipefail
+if true; then
+  pip install --user -r python 
+else
+  pip install -r python
+fi

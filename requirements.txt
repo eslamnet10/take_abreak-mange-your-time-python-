@@ -1,1 +1,2 @@
 install python 2
+sudo apt install python 

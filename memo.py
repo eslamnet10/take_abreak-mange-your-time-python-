@@ -1,3 +1,10 @@
+#!/bin/bash -eo pipefail
+if true; then
+  pip install --user -r requirements.txt
+else
+  pip install -r requirements.txt
+fi
+
 import time 
 import webbrowser 
 breaks = 3 
